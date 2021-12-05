@@ -58,7 +58,6 @@ class Contacts{
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 }
 public class AddressBookSystemUC1 {
 	public static void main(String[] args) {
@@ -80,7 +79,5 @@ public class AddressBookSystemUC1 {
 	    String phoneNumber=scanner.next();
 	    System.out.println("Enter email:");
 	    String email=scanner.next();
-
 	}
-
 }
