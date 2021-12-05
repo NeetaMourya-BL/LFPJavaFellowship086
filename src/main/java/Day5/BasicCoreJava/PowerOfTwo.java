@@ -1,6 +1,6 @@
 package Day5.BasicCoreJava;
 import java.util.Scanner;
-public class PowerOf2 {
+public class PowerOfTwo {
 	public static void main(String[] args) {
 	int N;
 	long p=1;
@@ -17,5 +17,4 @@ public class PowerOf2 {
 	else {
 		System.out.println("N greater then 31");
 }
-}
-	}
+}}
