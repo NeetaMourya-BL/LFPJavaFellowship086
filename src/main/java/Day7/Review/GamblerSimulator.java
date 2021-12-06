@@ -7,7 +7,7 @@ public class GamblerSimulator {
     	gamblerSimulator.startStake();
     }
     	public static void startStake() {    		
-    		int trials=100;
+    		int stake=100;
     	    int bets=1;
 	}
 }
