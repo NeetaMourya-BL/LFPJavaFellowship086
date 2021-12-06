@@ -4,9 +4,9 @@ public class GamblerSimulator {
 
     public static void main(String[] args) {
     	GamblerSimulator gamblerSimulator=new GamblerSimulator();
-    	gamblerSimulator.uc1();
+    	gamblerSimulator.startStake();
     }
-    	public static void uc1() {    		
+    	public static void startStake() {    		
     		int trials=100;
     	    int bets=1;
 	}
