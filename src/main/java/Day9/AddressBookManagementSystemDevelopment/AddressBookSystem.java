@@ -1,6 +1,7 @@
 package Day9.AddressBookManagementSystemDevelopment;
 import java.util.Scanner;
-class Contacts{
+import java.util.ArrayList;
+class AddNewContacts {
 	String firstName;
 	String lastName; 
 	String address;
@@ -58,6 +59,26 @@ class Contacts{
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public AddNewContacts(String firstName, String lastName, String address, String city, String state, String zip,
+			String phoneNumber, String email) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.address = address;
+		this.city = city;
+		this.state = state;
+		this.zip = zip;
+		this.phoneNumber = phoneNumber;
+		this.email = email;
+	}
+	public AddNewContacts get(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void add(AddNewContacts addNewContacts1) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 public class AddressBookSystem {
 	public static void main(String[] args) {
@@ -79,5 +100,16 @@ public class AddressBookSystem {
 	    String phoneNumber=scanner.next();
 	    System.out.println("Enter email:");
 	    String email=scanner.next();
+		ArrayList<AddNewContacts> addNewContacts= new ArrayList<AddNewContacts>();
+		AddNewContacts addNewContacts1=new AddNewContacts("Neeta1", "mourya", "dayalband", "bsp", "cg", "495001", "8269068794","neeta.mourya@bridgelabz.com");
+		addNewContacts1.add(addNewContacts1);
+		System.out.println(addNewContacts1.get(0).getFirstName());
+		System.out.println(addNewContacts1.get(0).getLastName());
+		System.out.println(addNewContacts1.get(0).getAddress());
+		System.out.println(addNewContacts1.get(0).getCity());
+		System.out.println(addNewContacts1.get(0).getState());
+		System.out.println(addNewContacts1.get(0).getZip());
+		System.out.println(addNewContacts1.get(0).getPhoneNumber());
+		System.out.println(addNewContacts1.get(0).getEmail());
 	}
 }
